@@ -1,0 +1,26 @@
+{
+  "name": "carousel-demo",
+  "version": "1.0.0",
+  "description": "LF Front End Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:watch": "webpack --watch"
+  },
+  "author": "Lori Mitchell",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
